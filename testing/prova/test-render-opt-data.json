@@ -1,0 +1,12 @@
+
+{
+    "template" : "prova.jinja",
+    "description" : "Renderizza correttamente con valori opzionali",
+    "data": {
+        "type": "GovernmentService"
+    },
+    "expected" : {
+        "@context": "https://schema.org",
+        "@type": "GovernmentService"
+    }
+}

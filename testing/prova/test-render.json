@@ -1,0 +1,14 @@
+
+{
+    "template" : "prova.jinja",
+    "description" : "Renderizza correttamente",
+    "data": {
+        "type": "GovernmentService", 
+        "name":"Nome Servizio"
+    },
+    "expected" : {
+        "@context": "https://schema.org",
+        "@type": "GovernmentService",
+        "name": "Nome Servizio"
+    }
+}
